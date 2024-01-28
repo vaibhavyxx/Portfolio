@@ -9,11 +9,11 @@
     <body>
         <div id="nav">
             <ul>
-                <li>logo</li>
-                <li>projects</li>
-                <li>linkedin</li>
-                <li>github</li>
-                <li>lets talk</li>
+                <li><a href="intro">logo</a></li>
+                <li><a href="#projects">projects</a></li>
+                <li><a href="https://www.linkedin.com/in/vaibhavy-darshan-5a3184248/">linkedin</a></li>
+                <li><a href="https://github.com/vaibhavyxx">github</a></li>
+                <li><a href="#talk">let's talk</a></li>
             </ul>
         </div>
         <header>
@@ -42,9 +42,77 @@
         </div>
         
         <div id="projects">
-            <ul><h2>web development</h2></ul>
-            <ul><h2>games</h2></ul>
-            <ul><h2>xr</h2></ul>
+            <h1>projects</h1>
+
+            <div id="web">
+                <h2>web development</h2>
+                <div id="rick">
+                    <!--Add an image-->
+                    <h3>Rick and Morty Search</h3>
+                    <p>Using Rick and Morty's REST API, I built a website using HTML, CSS, and Javascript where users could search for different characters in the show.</p>
+                </div>
+
+                <div id="dress-up">
+                    <!--Add an image-->
+                    <h3>Sarah's Dress Up</h3>
+                    <p>Built with HTML, CSS, and Javascript with PIXI Library, I made a drag-and-drop game where users could dress up the mannequin however they wanted.</p>
+                </div>
+
+            </div>
+            
+            <div id="games">
+                <h2>games</h2>
+
+                <div id="blood-of-christ">
+                    <!--Add an image-->
+                    <h3>Blood of Christ</h3>
+                    <p>This was an academic project where we worked in a team of four people. Using Monogame Library, we made a 2D stealth platformer game where Count Vodka had to escape the Church. I worked on enemy movement and firing systems for the project. The firing system ensured the bullets were triggered when the player crossed a specific path.</p>
+                </div>
+
+                <div id="shump">
+                    <!--Add an image-->
+                    <h3>Shump</h3>
+                    <p>It was an academic project where we had to make our collision system in Unity. I used the AABB collision system to make a simple Shump game using C#.</p>
+                </div>
+            </div>
+
+            <div id="xr">
+                <h2>xr</h2>
+
+                <div id="suburbs">
+                    <!--Add an image-->
+                    <h3>Suburbs</h3>
+                    <p>Developed with HTML5, Javascript, and A-frame library, it mimics the look of a residential complex with a busy street.</p>
+                </div>
+
+                <div id="snowflakes">
+                    <!--Add an image-->
+                    <h3>Snowflakes</h3>
+                    <p>It is a face-tracking AR application developed using Meta Spark AR to track the user’s face to make them appear blushing as it snows in the background. It was inspired by the Valentine’s Day theme.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="talk">
+            <h1>let's talk</h1>
+            <div id="form">
+                <label for="fname">name: </label>
+                <input type="text" id="fname"><br>
+                <label for="femail">email: </label>
+                <input type="text" id="fname"><br>
+                <textarea id="message" name="message" rows="5" cols="80">
+                    Add your comment!
+                </textarea><br>
+                <input type="submit" value="submit">
+            </div>
+
+            <div id="details">
+                <h2>Let's Connect</h2>
+                <p>Currently in Rochester, New York</p>
+                <!--Use JS for time-->
+                <a href="https://www.linkedin.com/in/vaibhavy-darshan-5a3184248/">linked in</a>
+                <a href="https://github.com/vaibhavyxx">github</a>
+            </div>
         </div>
     </body>
 </html>
