@@ -4,7 +4,13 @@ html{
     font-family: 'Libre Franklin', sans-serif;
     scroll-behavior: smooth;
 }
-
+header{
+    display: flex;
+    flex-direction: row;
+}
+#text{
+    margin-left: 20px;
+}
 #nav a{
     text-decoration: none;
 }
@@ -12,6 +18,11 @@ html{
     list-style-type: none;
     display: flex;
     flex-direction: row;
+    box-sizing: border-box;
+    border-style: dashed;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position:relative;
 }
 #nav li{
     margin-left: auto;
@@ -31,6 +42,9 @@ html{
     box-sizing: content-box;
     background-color: white;
     width:auto;
+}
+#projects p, #projects h3{
+    color:white;
 }
 
 footer{
