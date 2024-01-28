@@ -1,8 +1,62 @@
 html{
     background-color: #201672;
     color: #FF668F;
+    font-family: 'Libre Franklin', sans-serif;
+    scroll-behavior: smooth;
 }
 
-#skills h3, h1{
+#nav a{
+    text-decoration: none;
+}
+#nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+#nav li{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#skills h2, h1{
     color:#CFFF04;
+}
+#skills h2{
+    -webkit-text-stroke-width: 0.05px;
+    -webkit-text-stroke-color: black;
+}
+
+#projects h2{
+    color:black;
+    box-sizing: content-box;
+    background-color: white;
+    width:auto;
+}
+
+footer{
+    margin-top: 30vh;
+}
+
+#skills ul{
+    display: flex;
+    flex-direction: row;
+}
+#skills li{
+    list-style-type: none;
+    color:#FF9466;
+}
+a:link{
+    color:white;
+}
+a:visited{
+    color:rgb(181, 181, 181);
+}
+a:hover{
+    color:#9ED3FF;
+}
+a:focus{
+    color:#9ED3FF;
+}
+a:active{
+    color:#9ED3FF;
 }
