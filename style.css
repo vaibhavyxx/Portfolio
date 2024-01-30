@@ -8,8 +8,23 @@ header{
     display: flex;
     flex-direction: row;
 }
+#intro{
+    padding-top: 5%;
+}
+h1{
+    font-size: 3em;
+    font-weight: 400;
+}
 #text{
     margin-left: 20px;
+    padding-top: 10%;
+}
+#intro p{
+    padding-top: 2.5%;
+    padding-bottom: 3%;
+    font-style: italic;
+    font-weight: 550;
+    font-size: 2em;
 }
 #nav a{
     text-decoration: none;
@@ -35,6 +50,8 @@ header{
 #skills h2{
     -webkit-text-stroke-width: 0.05px;
     -webkit-text-stroke-color: black;
+    text-align: center;
+    font-size: 2em;
 }
 
 #projects h2{
@@ -58,6 +75,9 @@ footer{
 #skills li{
     list-style-type: none;
     color:#FF9466;
+}
+#skills{
+
 }
 a:link{
     color:white;
