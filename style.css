@@ -3,6 +3,7 @@ html{
     color: #FF668F;
     font-family: 'Libre Franklin', sans-serif;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 header{
     display: flex;
@@ -50,8 +51,11 @@ h1{
 #skills h2{
     -webkit-text-stroke-width: 0.05px;
     -webkit-text-stroke-color: black;
-    text-align: center;
     font-size: 2em;
+    animation-duration: 7s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
 #projects h2{
@@ -76,9 +80,6 @@ footer{
     list-style-type: none;
     color:#FF9466;
 }
-#skills{
-
-}
 a:link{
     color:white;
 }
@@ -93,4 +94,15 @@ a:focus{
 }
 a:active{
     color:#9ED3FF;
+}
+
+@keyframes slidein{
+    from{
+        margin-left: 0%;
+        width: 100%;
+    }
+    to{
+        margin-left: 45%;
+        width: 300%;
+    }
 }
