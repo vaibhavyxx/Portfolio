@@ -74,6 +74,33 @@ h1{
     color:white;
 }
 
+/*project 1 rick and morty*/
+#rick{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    max-height: max-content;
+    background-color: #D96F65;
+}
+#rick img{
+    float: left;
+    margin-right: 20px;
+}
+
+/*project 2 dress up game*/
+#dress-up{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    max-height: max-content;
+    background-color: #DB4B92;
+}
+#dress-up img{
+    float: right;
+    margin-left: 20px;
+}
+
+
 footer{
     margin-top: 10%;
     list-style-type: none;
@@ -113,3 +140,12 @@ a:active{
     color:#9ED3FF;
 }
 
+/*referenced from w3 school*/
+::-webkit-scrollbar{
+    width: 10px;
+    height: 5px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: aliceblue;
+    border-radius: 15px;
+}
