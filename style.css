@@ -1,6 +1,6 @@
 html{
     background-color: #201672;
-    color: #FF668F;
+    color: #fa81a1;
     font-family: 'Libre Franklin', sans-serif;
     scroll-behavior: smooth;
     overflow-x: hidden;
@@ -28,6 +28,7 @@ h1{
 #text{
     margin-left: 20px;
     padding-top: 10%;
+    font-weight: 500;
 }
 #intro p{
     padding-top: 2.5%;
@@ -73,7 +74,6 @@ h1{
 #projects p, #projects h3{
     color:white;
 }
-
 /*project 1 rick and morty*/
 #rick{
     display: inline-block;
@@ -96,6 +96,59 @@ h1{
     background-color: #DB4B92;
 }
 #dress-up img{
+    float: right;
+    margin-left: 20px;
+}
+
+/*project 3 blood of christ*/
+#blood-of-christ{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    max-height: max-content;
+    background-color: #a6b12b;
+    border-radius: 10px;
+}
+#blood-of-christ iframe{
+    float: left;
+    margin-right: 20px;
+}
+
+/*project 4 shump*/
+#shump{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    max-height: max-content;
+    background-color: #3D995C;
+}
+#shump img{
+    float: right;
+    margin-left: 20px;
+}
+
+/*project 5 suburbs*/
+#suburbs{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    max-height: max-content;
+    background-color: #493ACD;
+}
+#suburbs img{
+    float: left;
+    margin-right: 20px;
+}
+
+/*project 6 snowflakes ar*/
+#snowflakes{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    max-height: max-content;
+    background-color: #2A56C6;
+}
+#snowflakes img{
     float: right;
     margin-left: 20px;
 }
