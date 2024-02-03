@@ -98,13 +98,3 @@ a:active{
     color:#9ED3FF;
 }
 
-@keyframes slidein{
-    from{
-        margin-left: 0%;
-        width: 100%;
-    }
-    to{
-        margin-left: 45%;
-        width: 300%;
-    }
-}
