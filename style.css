@@ -11,13 +11,6 @@ header, #intro, #skills, #talk{
     margin-right: 2%;
     text-align: center;
 } 
-header{
-    display: flex;
-    flex-direction: row;
-    padding-top: 5%;
-    justify-content: center;
-
-}
 #intro{
     padding-top: 5%;
 }
@@ -25,16 +18,11 @@ h1{
     font-size: 3em;
     font-weight: 400;
 }
-#text{
-    margin-left: 20px;
-    padding-top: 10%;
-    font-weight: 500;
-}
-#intro p{
-    padding-top: 2.5%;
-    padding-bottom: 3%;
-    font-weight: 550;
-    font-size: 2em;
+
+#nav{
+    position: fixed;
+    box-sizing: border-box;
+    width: 100%;
 }
 #nav a{
     text-decoration: none;
@@ -42,9 +30,7 @@ h1{
 #nav ul{
     list-style-type: none;
     display: flex;
-    flex-direction: row;
     box-sizing: border-box;
-    border-style: dashed;
     padding-top: 5px;
     padding-bottom: 5px;
     position:relative;
@@ -53,6 +39,11 @@ h1{
     margin-left: auto;
     margin-right: auto;
 }
+li a:link{
+    background-color: #606060;
+    padding:10px 20px;
+}
+
 #skills h2, h1{
     color:#CFFF04;
 }
@@ -165,10 +156,6 @@ footer li{
     color:white;
 }
 
-#skills ul{
-    display: flex;
-    flex-direction: row;
-}
 #skills li{
     list-style-type: none;
     color:#FF9466;
@@ -201,4 +188,94 @@ a:active{
 ::-webkit-scrollbar-thumb{
     background-color: aliceblue;
     border-radius: 15px;
+}
+
+@media only screen and (max-width:800px) {
+    /*.home-content{
+        overflow: hidden;
+    }
+
+    .home:hover .home-content{
+        display: block;
+    }*/
+    #nav ul {
+        list-style-type: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height:50px;
+        flex-direction: column;
+      }
+      
+      #nav li{
+        box-sizing: border-box;
+        width: 100%;
+        text-align: center;
+      }
+      #nav li a {
+        display: block;
+        padding: 8px 16px;
+        text-decoration: none;
+      }
+      /* Change the link color on hover */
+      #nav li a:hover {
+        background-color: #555;
+        color: white;
+      }
+      .header{
+        display: block;
+        padding-top: 500px;
+      }
+      #intro p{
+        font-size: 1.5em;
+        font-weight: 580;
+      }
+      #skills ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+      }
+
+     #rick, #dress-up, #blood-of-christ, #shump, #suburbs, #snowflakes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+     }
+     #rick, #dress-up, #blood-of-christ, #shump, #suburbs, #snowflakes img{
+        float: center;
+        width:80%;
+        height: auto;
+     }
+     #blood-of-christ iframe{
+        float: center;
+        width: 100%;
+        height: auto;
+     }
+
+}
+
+
+@media only screen and (min-width:801px){
+    header{
+        display: flex;
+        flex-direction: row;
+        padding-top: 5%;
+        justify-content: center;
+    }
+    #text{
+        margin-left: 20px;
+        padding-top: 10%;
+        font-weight: 500;
+    }
+    #intro p{
+        padding-top: 2.5%;
+        padding-bottom: 3%;
+        font-weight: 550;
+        font-size: 2em;
+    }
+    #skills ul{
+        display: flex;
+        flex-direction: row;
+    }
 }
