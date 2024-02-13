@@ -54,17 +54,16 @@ h1{
     font-size: 2.5em;
     font-weight: 500;
 }
-#projects{
-    margin-top:50px;
-}
 #projects h2{
     color:black;
     box-sizing: content-box;
     background-color: white;
     width:auto;
+    padding-left: 20px;
 }
 #projects p, #projects h3{
     color:white;
+    margin-left: 20px;
 }
 /*project 1 rick and morty*/
 #rick, #dress-up, #blood-of-christ, #shump,
@@ -73,6 +72,8 @@ h1{
     box-sizing: border-box;
     width: 100%;
     max-height: max-content;
+    padding: 20px;
+    border-radius: 10px;
 }
 #rick, #dress-up, #blood-of-christ, #shump,
 #suburbs, #snowflakes img iframe{
@@ -117,15 +118,14 @@ a:active{color:#9ED3FF;}
     background-color: aliceblue;
     border-radius: 15px;
 }
+/* Change the link color on hover */
+#nav li a:hover {
+    background-color: #555;
+    color: white;
+  }
 
 @media only screen and (max-width:800px) {
 
-    
-      /* Change the link color on hover */
-      #nav li a:hover {
-        background-color: #555;
-        color: white;
-      }
       .header{
         display: block;
         padding-top: 500px;
@@ -204,6 +204,13 @@ a:active{color:#9ED3FF;}
         padding-left: 10px;
         padding-right: 10px;
         color:white;
+    }
+    #nav{
+        position: fixed;
+        box-sizing: border-box;
+        width: 100%;
+        background-color: #201672;
+           
     }
     
 }
