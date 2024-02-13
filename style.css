@@ -144,11 +144,7 @@ a:active{color:#9ED3FF;}
         margin-right: auto;
       }
 
-     #rick, #dress-up, #blood-of-christ, #shump, #suburbs, #snowflakes{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-     }
+     
      #rick, #dress-up, #blood-of-christ, #shump, #suburbs, #snowflakes img{
         float: center;
         width:80%;
@@ -212,5 +208,11 @@ a:active{color:#9ED3FF;}
         background-color: #201672;
            
     }
+    #rick, #dress-up, #blood-of-christ, #shump, #suburbs, #snowflakes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 5%;
+     }
     
 }
