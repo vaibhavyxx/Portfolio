@@ -5,6 +5,7 @@ html{
     scroll-behavior: smooth;
     overflow-x: hidden;
     cursor: url('img/cursor.png'), auto;
+    list-style-type: none;
 }
 header, #intro, #skills, #talk{
     margin-left: 2%;
@@ -18,31 +19,31 @@ h1{
     font-size: 3em;
     font-weight: 400;
 }
-
-#nav{
-    position: fixed;
-    box-sizing: border-box;
-    width: 100%;
-}
-#nav a{
-    text-decoration: none;
-}
 #nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+#nav ul {
     list-style-type: none;
     display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height:50px;
+    flex-direction: row;
+  }
+  
+  #nav li{
     box-sizing: border-box;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    position:relative;
-}
-#nav li{
-    margin-left: auto;
-    margin-right: auto;
-}
-li a:link{
-    background-color: #606060;
-    padding:10px 20px;
-}
+    width: 100%;
+    text-align: center;
+  }
+  #nav li a {
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
 
 #skills h2, h1{
     color:#CFFF04;
@@ -66,85 +67,28 @@ li a:link{
     color:white;
 }
 /*project 1 rick and morty*/
-#rick{
-    display: inline-block;
+#rick, #dress-up, #blood-of-christ, #shump,
+#suburbs, #snowflakes {
+    display: block;
     box-sizing: border-box;
     width: 100%;
     max-height: max-content;
-    background-color: #D96F65;
 }
-#rick img{
-    float: left;
-    margin-right: 20px;
+#rick, #dress-up, #blood-of-christ, #shump,
+#suburbs, #snowflakes img iframe{
+    margin-left: auto;
+    margin-right: auto;
 }
-
-/*project 2 dress up game*/
-#dress-up{
-    display: inline-block;
-    box-sizing: border-box;
-    width: 100%;
-    max-height: max-content;
-    background-color: #DB4B92;
-}
-#dress-up img{
-    float: right;
-    margin-left: 20px;
-}
-
-/*project 3 blood of christ*/
 #blood-of-christ{
-    display: inline-block;
-    box-sizing: border-box;
-    width: 100%;
-    max-height: max-content;
     background-color: #a6b12b;
     border-radius: 10px;
 }
-#blood-of-christ iframe{
-    float: left;
-    margin-right: 20px;
-}
-
-/*project 4 shump*/
-#shump{
-    display: inline-block;
-    box-sizing: border-box;
-    width: 100%;
-    max-height: max-content;
-    background-color: #3D995C;
-}
-#shump img{
-    float: right;
-    margin-left: 20px;
-}
-
-/*project 5 suburbs*/
-#suburbs{
-    display: inline-block;
-    box-sizing: border-box;
-    width: 100%;
-    max-height: max-content;
-    background-color: #493ACD;
-}
-#suburbs img{
-    float: left;
-    margin-right: 20px;
-}
-
-/*project 6 snowflakes ar*/
-#snowflakes{
-    display: inline-block;
-    box-sizing: border-box;
-    width: 100%;
-    max-height: max-content;
-    background-color: #2A56C6;
-}
-#snowflakes img{
-    float: right;
-    margin-left: 20px;
-}
-
-
+#rick{background-color: #D96F65;}
+#dress-up{background-color: #DB4B92;}
+#shump{background-color: #3D995C;}
+#suburbs{background-color: #493ACD;}
+#snowflakes{background-color: #2A56C6;}
+#suburbs img{width: 30%; height: auto;}
 footer{
     margin-top: 10%;
     list-style-type: none;
@@ -164,21 +108,11 @@ footer li{
     flex-basis: 100%;
     height:0;
 }
-a:link{
-    color:white;
-}
-a:visited{
-    color:rgb(181, 181, 181);
-}
-a:hover{
-    color:#9ED3FF;
-}
-a:focus{
-    color:#9ED3FF;
-}
-a:active{
-    color:#9ED3FF;
-}
+a:link{color:white;}
+a:visited{color:rgb(181, 181, 181);}
+a:hover{color:#9ED3FF;}
+a:focus{color:#9ED3FF;}
+a:active{color:#9ED3FF;}
 
 /*referenced from w3 school*/
 ::-webkit-scrollbar{
@@ -191,33 +125,8 @@ a:active{
 }
 
 @media only screen and (max-width:800px) {
-    /*.home-content{
-        overflow: hidden;
-    }
 
-    .home:hover .home-content{
-        display: block;
-    }*/
-    #nav ul {
-        list-style-type: none;
-        display: flex;
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height:50px;
-        flex-direction: column;
-      }
-      
-      #nav li{
-        box-sizing: border-box;
-        width: 100%;
-        text-align: center;
-      }
-      #nav li a {
-        display: block;
-        padding: 8px 16px;
-        text-decoration: none;
-      }
+    
       /* Change the link color on hover */
       #nav li a:hover {
         background-color: #555;
@@ -236,6 +145,10 @@ a:active{
         flex-direction: column;
         text-align: center;
       }
+      #skills li{
+        margin-left: auto;
+        margin-right: auto;
+      }
 
      #rick, #dress-up, #blood-of-christ, #shump, #suburbs, #snowflakes{
         display: flex;
@@ -252,6 +165,10 @@ a:active{
         width: 100%;
         height: auto;
      }
+     #shump img{
+        width:39%; height: auto;
+    }
+    
 
 }
 
@@ -277,5 +194,9 @@ a:active{
     #skills ul{
         display: flex;
         flex-direction: row;
+    }
+    #shump img{
+        width:30%;
+        height: auto;
     }
 }
