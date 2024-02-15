@@ -67,7 +67,7 @@ h1{
 }
 /*project 1 rick and morty*/
 #rick, #dress-up, #blood-of-christ, #shump,
-#suburbs, #snowflakes {
+#suburbs, #snowflakes,#hangman{
     display: block;
     box-sizing: border-box;
     width: 100%;
@@ -90,6 +90,7 @@ h1{
 #suburbs{background-color: #493ACD;}
 #snowflakes{background-color: #2A56C6;}
 #suburbs img{width: 30%; height: auto;}
+#hangman {background-color: #2A56C6;}
 footer{
     margin-top: 10%;
     list-style-type: none;
