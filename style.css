@@ -7,6 +7,9 @@ html{
     cursor: url('img/cursor.png'), auto;
     list-style-type: none;
 }
+p, li{
+    font-weight: 400;
+}
 header, #intro, #skills, #talk{
     margin-left: 2%;
     margin-right: 2%;
@@ -67,12 +70,11 @@ h1{
 }
 /*project 1 rick and morty*/
 #rick, #dress-up, #blood-of-christ, #shump,
-#suburbs, #snowflakes,#hangman{
+#suburbs, #snowflakes,#hangman, #game-of-life{
     display: block;
     box-sizing: border-box;
     width: 100%;
     max-height: max-content;
-    padding: 20px;
     border-radius: 10px;
 }
 #rick, #dress-up, #blood-of-christ, #shump,
@@ -91,6 +93,8 @@ h1{
 #snowflakes{background-color: #2A56C6;}
 #suburbs img{width: 30%; height: auto;}
 #hangman {background-color: #2A56C6;}
+#game-of-life{background-color: #D96F65;}
+
 footer{
     margin-top: 10%;
     list-style-type: none;
@@ -144,7 +148,6 @@ a:active{color:#9ED3FF;}
         margin-left: auto;
         margin-right: auto;
       }
-
      
      #rick, #dress-up, #blood-of-christ, #shump, #suburbs, #snowflakes img{
         float: center;
