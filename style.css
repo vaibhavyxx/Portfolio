@@ -77,9 +77,9 @@ h1{
     margin-right: auto;
     
  }
-#rick, #dress-up, #blood-of-christ, #shump,
-#suburbs, #snowflakes,#hangman, #game-of-life, #music, #turtles, #smilies,
-#butterfly, #flyer{
+#rick, #dress-up, #blood-of-christ,
+#suburbs, #snowflakes, #happy-taxing, #ar-demo, #level-design,
+#music, #turtles, #butterfly{
     display: block;
     box-sizing: border-box;
     width: 100%;
@@ -92,23 +92,12 @@ h1{
     border-width: 5px;
     border-color: white;
 }
-#rick, #dress-up, #blood-of-christ, #shump,
-#suburbs, #snowflakes img iframe{
-    margin-left: auto;
+
+img iframe{
+    margin-left: 40%;
     margin-right: auto;
+    display: block;
 }
-#blood-of-christ{
-    background-color: #a6b12b;
-    border-radius: 10px;
-}
-#rick{background-color: #D96F65;}
-#dress-up{background-color: #DB4B92;}
-#shump{background-color: #3D995C;}
-#suburbs{background-color: #493ACD;}
-#snowflakes{background-color: #2A56C6;}
-#suburbs img{width: 30%; height: auto;}
-#hangman {background-color: #2A56C6;}
-#game-of-life{background-color: #D96F65;}
 
 footer{
     margin-top: 10%;
@@ -143,7 +132,15 @@ a:active{color:#9ED3FF;}
     background-color: #555;
     color: white;
   }
-
+#skills ul{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#skills li{
+    margin-left: auto;
+    margin-right: auto;
+}
 @media only screen and (max-width:800px) {
 
       .header{
@@ -153,15 +150,6 @@ a:active{color:#9ED3FF;}
       #intro p{
         font-size: 1.5em;
         font-weight: 580;
-      }
-      #skills ul{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-      }
-      #skills li{
-        margin-left: auto;
-        margin-right: auto;
       }
     footer li{
         display: block;
@@ -195,14 +183,8 @@ a:active{color:#9ED3FF;}
         font-weight: 550;
         font-size: 2em;
     }
-    #skills ul{
-        display: flex;
-        flex-direction: row;
-    }
-    #shump img{
-        width:30%;
-        height: auto;
-    }
+   
+    
     footer li{
         display: inline;
         padding-left: 10px;
