@@ -8,11 +8,11 @@ html{
     list-style-type: none;
 }
 p, li{
-    font-weight: 400;
+    font-weight: 550;
 }
 header, #intro, #skills, #talk{
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 10px;
+    margin-right: 10px;
     text-align: center;
 } 
 #intro{
@@ -62,7 +62,7 @@ h1{
     box-sizing: content-box;
     background-color: white;
     width:auto;
-    padding-left: 20px;
+    
 }
 #projects p, #projects h3{
     color:white;
