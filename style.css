@@ -106,7 +106,6 @@ footer{
 
 #skills li{
     list-style-type: none;
-    color:#FF9466;
     box-sizing: border-box;
     width: max-content;
     flex-basis: 100%;
