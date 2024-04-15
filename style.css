@@ -1,6 +1,6 @@
 html{
     background-color: #201672;
-    color: rgb(255, 190, 243);
+    color:  #fa81a1;;
     font-family: 'Libre Franklin', sans-serif;
     scroll-behavior: smooth;
     overflow-x: hidden;
@@ -77,8 +77,8 @@ h1{
     margin-right: auto;
     
  }
-#rick, #dress-up, #blood-of-christ, #alien-invasion, #duck-in-the-chaos
-#suburbs, #snowflakes, #happy-taxing, #ar-demo, #level-design,
+#rick, #dress-up, #blood-of-christ, #alien-invasion, #duck-in-the-chaos,
+.suburbs, #snowflakes, #happy-taxing, #ar-demo, #level-design,
 #music, #turtles, #butterfly{
     display: block;
     box-sizing: border-box;
