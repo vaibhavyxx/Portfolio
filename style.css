@@ -161,6 +161,10 @@ a:active{color:#9ED3FF;}
         width: max-content;
         height: auto;
     }
+    .images{
+        width: 300px;
+        height: auto;
+    }
 }
 
 
