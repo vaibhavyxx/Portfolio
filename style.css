@@ -27,6 +27,10 @@ h1{
     flex-direction: row;
     list-style-type: none;
 }
+#nav{
+    position: fixed;
+    top:0;
+}
 #nav ul {
     list-style-type: none;
     display: flex;
