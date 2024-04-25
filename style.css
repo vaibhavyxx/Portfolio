@@ -78,6 +78,9 @@ button{
     margin-right: auto;
     
  }
+ #xr, #web, #games, #graphic-design{
+    display: none;
+ }
  #rick, #dress-up, #blood-of-christ, #alien-invasion, #duck-in-the-chaos,
  .suburbs, #snowflakes, #happy-taxing, #ar-demo, #level-design,
  #music, #turtles, #butterfly{
