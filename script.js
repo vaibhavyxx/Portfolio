@@ -19,3 +19,9 @@ for(let i=0; i < column.length; i++){
         }
     });
 }
+
+/*Didn't work
+let intro = document.getElementById("text");
+$(intro).on( "click", function(){
+    $("div:hidden").first().fadeIn(500);
+})*/

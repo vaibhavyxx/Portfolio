@@ -10,7 +10,7 @@ html{
 p, li{
     font-weight: 550;
 }
-header, #intro, #skills, #talk{
+header, #intro, #skills, #talk, #edu{
     margin-left: 10px;
     margin-right: 10px;
     text-align: center;
@@ -48,10 +48,10 @@ h1{
     text-decoration: none;
   }
 
-#skills h2, h1{
+#skills h2, h1, #edu h2{
     color:#CFFF04;
 }
-#skills h2{
+#skills h2, #edu h2{
     -webkit-text-stroke-width: 0.2px;
     -webkit-text-stroke-color: black;
     font-size: 2.5em;
