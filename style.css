@@ -57,12 +57,13 @@ h1{
     font-size: 2.5em;
     font-weight: 500;
 }
+button{
+    width: 100%;
+}
 #projects h2{
     color:black;
-    box-sizing: content-box;
-    background-color: white;
-    width:auto;
-    
+    text-align: left;
+    padding-left: 20px;
 }
 #projects p, #projects h3{
     color:white;
@@ -77,9 +78,9 @@ h1{
     margin-right: auto;
     
  }
-#rick, #dress-up, #blood-of-christ, #alien-invasion, #duck-in-the-chaos,
-.suburbs, #snowflakes, #happy-taxing, #ar-demo, #level-design,
-#music, #turtles, #butterfly{
+ #rick, #dress-up, #blood-of-christ, #alien-invasion, #duck-in-the-chaos,
+ .suburbs, #snowflakes, #happy-taxing, #ar-demo, #level-design,
+ #music, #turtles, #butterfly{
     display: block;
     box-sizing: border-box;
     width: 100%;
