@@ -8,6 +8,7 @@ function closeAll(){
         });}}
 
 let column = document.getElementsByClassName("collapsible");
+
 for(let i=0; i < column.length; i++){
     column[i].addEventListener("click", function(){
         this.classList.toggle("active");

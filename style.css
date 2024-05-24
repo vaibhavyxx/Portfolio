@@ -6,6 +6,7 @@ html{
     overflow-x: hidden;
     cursor: url('img/cursor.png'), auto;
     list-style-type: none;
+    font-size: 2.5em;
 }
 p, li{
     font-weight: 550;
@@ -15,6 +16,9 @@ header, #intro, #skills, #talk, #edu{
     margin-right: 10px;
     text-align: center;
 } 
+button h2{
+    font-size: 3em;
+}
 #intro{
     padding-top: 5%;
 }
