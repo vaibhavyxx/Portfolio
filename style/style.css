@@ -1,24 +1,80 @@
+/* basically reduce the image size when it is in desktop*/
+
 html{
     font-family: "Liter", serif;
-    margin: 16px;
+    margin: 0px 16px;
     font-size: 1.5em;
 }
 header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color: bisque;
+    align-items: center;
 }
 #intro img{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 50px;
 }
-ul{
+.featured-projects ul{
     list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap:10px;
+    justify-content: center;
+}
+button, .featured-projects li{
+    box-sizing: content-box;
+    width: fit-content;
+    padding: 5px 10px;
+    border: 2px;
+    border-style: solid;
+    border-radius: 20px;
+    font-size: 0.8rem;
+}
+button{
+    font-size: 1em;
 }
 .featured-projects{
     box-sizing: border-box;
-    background-color: azure;
-    padding: 20px;
-    margin-bottom: 16px;
+    background-color: bisque;
+    padding: 2% 7%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+}
+#nav{
+    background-color: bisque;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+#nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+    font-size: 2em;
+    font-weight: 400;
+}
+#more-work{
+    background-color: black;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 5px 15px;
+}
+#more-work img{
+    width: 50px;
+    height: 20px;
+}
+#featured-projects-title{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: first baseline;
 }

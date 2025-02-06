@@ -10,17 +10,32 @@
     <title>Vaibhavy's Page</title>
 </head>
 <body>
-    <header>
-        <img src="icon/vd-icon.png" alt="logo" width="50px">
+    <header> 
+        <img src="icon/vd-icon.png" alt="logo" width="50px" height="50px">
         <h3>my portfolio</h3>
     </header>
+
+    <div id="nav">
+        <ul>
+            <li>home</li>
+            <li>projects</li>
+            <li>resume</li>
+            <li>github</li>
+            <li>linked in</li>
+            <li>contact</li>
+        </ul>
+    </div>
 
     <div id="intro">
         <img src="img/me2.jpg" alt="me" width="40%">
         <p>Hi, I am Vaibhavy, pronounced as ve-bh-ve and I like to design and code immersive media including websites, games and hardware projects.</p>
     </div>
 
-    <h2>featured projects</h2>
+    <div id="featured-projects-title">
+        <h2>featured projects</h2>
+        <a id="more-work" href="pages/works.html"><img src="img/ui/Arrow 1.png"></a>
+    </div>
+
     <div class="featured-projects">
         <h3>Journal Miniapp</h3>
         <div class="tags">
@@ -30,10 +45,11 @@
                 <li>react</li>
                 <li>typescript</li>
             </ul>
-            <img>
+            <img src="img/social media/seam-social.png" alt="seam social" width="30%" height="auto">
             <p>
                 I made it for a hackathon to make a mini game that allows users to add their drawings and emojis to show their highlight of their day. 
             </p>
+            <button class="read-more">Read More</button>
         </div>
     </div>
 
@@ -47,8 +63,9 @@
                 <li>usablity testing</li>
                 <li>mindmapping</li>
             </ul>
-            <img>
+            <img src="img/projects/shades.png" alt="Shades: News App" width="30%" height="auto">
             <p>I did it for my 12 week long internship to analyse app’s performance and features and write all my findings to share it with my supervisors.</p>
+            <button class="read-more">Read More</button>
         </div>
     </div>
 
@@ -68,10 +85,13 @@
             <p>
                 I had freelanced for a startup in India to redesign their brand identity to make it match it more with their current line of work. As a result, I had come up with new colors, fonts and logos.
             </p>
+            <button class="read-more">Read More</button>
         </div>
     </div>
 
-    <span>more projects</span>
-    
+    <footer>
+        Made with love, <a href="https://www.linkedin.com/in/vaibhavy-darshan-5a3184248/"><img src="img/social media/linked in.png" alt="linkedin" width="50px" height="auto"></a>,
+        <a href="https://github.com/vaibhavyxx"><img src="img/social media/github.png" alt="github" width="50px" height="auto"></a>
+    </footer>
 </body>
 </html>
