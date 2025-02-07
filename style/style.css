@@ -1,9 +1,12 @@
 /* basically reduce the image size when it is in desktop*/
-
+img{
+    border-radius: 5px;
+}
 html{
     font-family: "Liter", serif;
     margin: 0px 16px;
     font-size: 1.5em;
+    position: absolute;
 }
 header{
     display: flex;
@@ -30,7 +33,7 @@ header{
 button, .featured-projects li{
     box-sizing: content-box;
     width: fit-content;
-    padding: 5px 10px;
+    padding: 5px 5%;
     border: 2px;
     border-style: solid;
     border-radius: 20px;
