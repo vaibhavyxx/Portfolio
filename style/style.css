@@ -18,6 +18,7 @@ header{
     left: 0;
     box-sizing: border-box;
     width: 100vw;
+    z-index: 1;
 }
 #intro img{
     display: block;
@@ -46,6 +47,7 @@ button, .featured-projects li{
 }
 button{
     font-size: 1em;
+    cursor: pointer;
 }
 .featured-projects{
     box-sizing: border-box;
@@ -61,6 +63,7 @@ button{
     height: 100%;
     left: 0;
     display: none;
+    z-index: 1;
 }
 #nav ul{
     list-style-type: none;
