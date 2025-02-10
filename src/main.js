@@ -13,16 +13,19 @@ window.onload= (event) =>{
     article.style.top = headerHeight +'px';
 }
 
+//no scroll does not work?
 header.addEventListener('click', ()=> {
     if(!navVisible){
         nav.style.position = "fixed";
         nav.style.top = headerHeight+ 'px';
         nav.style.display = 'block';
         navVisible = true;
+        document.body.classList.add('no-scroll');
     }
     else{
         nav.style.display = 'none';
         navVisible = false;
+        document.body.classList.remove('no-scroll');
     }
     
 })
