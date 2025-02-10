@@ -19,6 +19,7 @@ header{
     box-sizing: border-box;
     width: 100vw;
     z-index: 1;
+    cursor: pointer;
 }
 #intro img{
     display: block;
