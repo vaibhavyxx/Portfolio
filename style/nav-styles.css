@@ -1,0 +1,39 @@
+html{
+    font-family: "Liter", serif;
+    /*margin: 0px 16px;*/
+    font-size: 1em;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: bisque;
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+header img{
+    width: 50px;
+    height: auto;
+}
+video{
+    width: 100%;
+}
+
+nav {
+    background-color: bisque;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    position: fixed;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+    font-size: 2em;
+    font-weight: 400;
+}
