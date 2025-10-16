@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" type="image/x-icon" href="/icon/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Liter&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Works</title>
@@ -9,39 +13,37 @@
 
 </head>
 <body>
-     <header>
-        <h3>vaibhavy</h3>
-        <button id="menu-button"><img src = "../img/ui/menu.svg"></button>
-    </header>
 
     <nav id="menu-items">
         <ul>
             <li><a href="../index.html">Home</a></li>
-            <li><a href="./works.html">projects</a></li>
-            <li><a href="https://docs.google.com/document/d/1FcL8CAqpWRULdBYmkpqJ6yPNVTm-Sm0vhMV5BwFsNac/edit?usp=sharing">resume</a></li>
-            <li><a href="https://github.com/vaibhavyxx">github</a></li>
-            <li><a href="https://www.linkedin.com/in/vaibhavy-darshan-5a3184248/">linked in</a></li>
+            <li><a href="./works.html">Projects</a></li>
+            <li><a href="https://docs.google.com/document/d/1FcL8CAqpWRULdBYmkpqJ6yPNVTm-Sm0vhMV5BwFsNac/edit?usp=sharing">Resume</a></li>
+            <li><a href="https://github.com/vaibhavyxx">Github</a></li>
+            <li><a href="https://www.linkedin.com/in/vaibhavy-darshan-5a3184248/">LinkedIn</a></li>
         </ul>
     </nav>
 
     <section> 
-        <button class="work-button"><h2>Immersive Experiences</h2></button>
-
+        <h1>Games</h1>
         <div class="immersive-apps">
         <section class="featured-work">
-        <img src="../img/projects/aloe-vera.png">
-        <h4>Tejay Interactive Music Experience</h4>
+       <iframe class="visual" width="560" height="315" src="https://www.youtube.com/embed/C2GsEMzzct0?si=agtuv_QuOuLOvS4e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <h2>TeJay Immersive Experience</h2>
         <p>Open world unity simulation where users can interact with the environment.</p>
         <ul>
             <li>Unity</li>
             <li>Version Control</li>
             <li>C#</li>
+            <li><a href="" class="source">Github</a></li>
+            <li><a href="" class="source">BTS</a></li>
         </ul>
     </section>
 
     <section class="featured-work">
-        <img src="../img/projects/ar/ritchie-ar-cropped.png">
-        <h4>Ritchie AR</h4>
+        <video class="visual" src="../img/videos/Ritchie AR.mp4" controls="true" type="video/mp4" alt="augmented reality for brick city homecoming"></video>
+        <!--<img src="../img/projects/ar/ritchie-ar-cropped.png">-->
+        <h2>Ritchie AR</h2>
         <p>Augmented reality experience for RIT's brick city homecoming where users can click pictures with virtual Ritchie. It has gathered 1.5k+ views with total time spent on it being 26 minutes.</p>
         <ul>
             <li>Zapworks</li>
@@ -51,8 +53,9 @@
     </section>
 
      <section class="featured-work">
-        <img src="../img/projects/spidey-webs.png">
-        <h4>Web Shooters</h4>
+        <!--<img src="../img/projects/spidey-webs.png">-->
+        <video class="visual" src="../img/videos/Web Shooters 2.mp4" controls="true" type="video/mp4" alt="gameplay of webshooters"></video>
+        <h2>Web Shooters</h2>
         <p>Developed an arduino console to 'web' spider-man in a game, made with Unity.</p>
         <ul>
             <li>Unity</li>
@@ -65,12 +68,12 @@
 </section>
 
 <section>
-    <button class="work-button"><h2>Web Development</h2></button>
-
+    <h1>Web Development</h1>
     <div id="web-dev">
     <section class="featured-work">
-        <img src="../img/projects/notebook.png">
-        <h4>Journal Miniapp</h4>
+        <!--<img src="../img/projects/notebook.png">-->
+        <iframe class="visual" width="560" height="315" src="https://www.youtube.com/embed/_BdUbzml1x4?si=CsVnM_UVhhvFwWPB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <h2>Journal Miniapp</h2>
         <p>Typescript mini-app, published on Google PlayStore and Appstore as a part of in-game library.</p>
         <ul>
             <li>Typescript</li>
@@ -79,8 +82,9 @@
     </section>
 
     <section class="featured-work">
-        <img src="../img/projects/two-worlds-icon.png">
-        <h4>Two Worlds</h4>
+        <!--<img src="../img/projects/two-worlds-icon.png">-->
+        <video class="visual" src="../img/videos/two-worlds.mp4" controls="true" type="video/mp4" alt="immersive website"></video>
+        <h2>Two Worlds</h2>
         <p>Javascript project that uses Craig Reynold's flocking idea</p>
         <ul>
             <li>Javascript</li>
@@ -92,8 +96,9 @@
     </section>
 
     <section class="featured-work">
-        <img src="../img/projects/rick-and-morty.png">
-        <h4>Rick and Morty Search Engine</h4>
+        <img class="visual" src="../img/projects/rick-and-morty.png">
+
+        <h2>Rick and Morty Search Engine</h2>
         <p>A search engine that uses rick and morty rest api to find the show's characters.</p>
         <ul>
             <li>Javascript</li>
@@ -107,12 +112,12 @@
 </section>
 
 <section>
-    <button class="work-button"><h2>UI/UX</h2></button>
+    <h1>UI/UX</h1>
 
     <div id="ui-ux">
      <section class="featured-work">
-        <img src="../img/social media/shades.png">
-        <h4>Shades: UX Studies</h4>
+        <img class="visual" src="../img/social media/shades.png">
+        <h2>Shades: UX Studies</h2>
         <p>Researched on the app's user experience by interviewing college students and documenting their feedback.</p>
         <ul>
             <li>UX Studies</li>
@@ -120,9 +125,9 @@
         </ul>
     </section>
 
-     <section class="featured-work">
-        <img src="../img/projects/content-tattva/ct logo.png">
-        <h4>Content Tattva</h4>
+     <section class="featured-work" id="last-div">
+        <img class="visual" src="../img/projects/content-tattva/ct logo.png">
+        <h2>Content Tattva</h2>
         <p>Researched on the app's user experience by interviewing college students and documenting their feedback.</p>
         <ul>
             <li>UX Studies</li>
@@ -134,6 +139,10 @@
     </section>
     </div>
 </section>
+
+<footer>
+    <p><strong>Disclaimer:</strong> This website is a still work in progress and should be best experienced on laptop/desktop.</p>
+</footer>
 </body>
 <script src="../src/main.js"></script>
 </html>

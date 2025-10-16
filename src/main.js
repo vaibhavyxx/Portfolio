@@ -10,9 +10,7 @@ const menuButton = document.querySelector('#menu-button');
 const menuItems = document.querySelector('#menu-items');
 let menuButtonClicked = false;
 
-window.onload = function(){
-    menuItems.style.display = 'none';
-}
+
 
 menuButton.onclick = function (){
     if(!menuButtonClicked){
