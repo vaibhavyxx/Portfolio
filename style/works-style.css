@@ -28,7 +28,9 @@ h1{
     margin: 1%;
     padding: 0px;
 }
-
+.featured-work p a{
+    color: white;
+} 
 .visual {
     width: 400px;
     height: 400px;
