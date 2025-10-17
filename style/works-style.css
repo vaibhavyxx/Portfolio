@@ -72,3 +72,17 @@ h1{
 #last-div {
     margin-bottom: 300px;
 }
+
+@media only screen and (max-width:850px){
+    .visual {
+        width: 200px;
+        height: 200px;
+        align-self: center;
+    }
+    .featured-work {
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+    }
+    
+}
