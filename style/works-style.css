@@ -8,6 +8,9 @@
     "image body"
     "image tags";
 }
+.featured-work  a {
+    color: white;
+}
 h1{
     text-align: center;
 }
@@ -31,6 +34,9 @@ h1{
 .featured-work p a{
     color: white;
 } 
+.featured-work li a{
+    color: #20186F;
+}
 .visual {
     width: 400px;
     height: 400px;
@@ -40,7 +46,7 @@ h1{
 }
 
 .visual:hover{
-    transform: scale(1.5);
+    transform: scale(1.1);
 }
 
 .featured-work ul {
