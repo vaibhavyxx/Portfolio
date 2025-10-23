@@ -1,0 +1,19 @@
+button{
+    box-sizing: content-box;
+    border-width: 1px;
+    width: max-content;
+    background-color:#20186F;
+    color:white;
+    height: 20px;
+    border-radius: 20px;
+    border-style: solid;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+#buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 90%;
+}
