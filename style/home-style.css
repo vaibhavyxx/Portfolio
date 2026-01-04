@@ -7,7 +7,7 @@ h2, h1{
 }
 
 body{
-    background-image: radial-gradient(#241474, #AB9EED);
+    background-image: radial-gradient(circle,#241474, #AB9EED);
 }
 @keyframes fadeIn {
     from {
@@ -46,7 +46,8 @@ video{
 .image-wrapper {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  width: max-content;
   margin-bottom: 10px;
   align-items: flex-start;
   animation: carousel-move 10s infinite linear;
