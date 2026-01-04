@@ -22,6 +22,12 @@ video{
     width: 100%;
 }
 
+#menu-items{
+    background-color: white;
+    height: auto;
+    width: 100%;
+}
+
 nav ul{
     list-style-type: none;
     display: flex;

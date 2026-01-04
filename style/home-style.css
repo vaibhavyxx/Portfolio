@@ -1,7 +1,46 @@
-h2{
+h2, h1{
     padding: 2%;
-    color:#20186F;
+    color:white;
     box-sizing: border-box;
     width: 100%;
     height: auto;
+}
+
+body{
+    background-image: radial-gradient(#241474, #AB9EED);
+}
+@keyframes fadeIn {
+    from {
+        /*background-color: rgba(255, 255, 255, 0);*/
+        color: rgba(255, 255, 255, 0);
+    }
+    to {
+        /*background-color: rgb(255, 255, 255);*/
+        color: rgb(255, 255, 255);
+    }
+}
+#intro{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+video{
+    width: 75%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+p{
+    box-sizing: content-box;
+    color:white;
+    /*background-color: rgba(255, 255, 255, 0.333);*/
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    animation: fadeIn;
+    animation-duration: 5s;
 }
