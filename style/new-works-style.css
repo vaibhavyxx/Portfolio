@@ -1,0 +1,22 @@
+.work-item h3{
+    color: white;
+}
+.works div{
+    box-sizing: border-box;
+    border-radius: 25px;
+    width: 500px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.425);
+}
+.works {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-left: 2%;
+    justify-content: center;
+}
+
+.work-item p{
+    display: hidden;
+}
