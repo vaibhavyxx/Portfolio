@@ -9,15 +9,15 @@
     grid-template-rows: auto 1fr 1fr; 
     gap: 0px 10px; 
     grid-template-areas: 
-    "image title"
+    "title title"
     "image body"
-    "tags tags";
+    "image tags";
 }
 .featured-work p, h2{
-    color: #20186F;
+    color: #ffffff;
 }
 .featured-work  a, h2 {
-    color: #20186F;
+    color: #ffffff;
 }
 h1{
     text-align: center;
@@ -26,8 +26,8 @@ h1{
     box-sizing: border-box;
     width: 90%;
     height: auto;
-    background-color: #ffffff;
-    color:#20186F;
+    background-image: radial-gradient(circle,#241474, #AB9EED);
+    color:#ffffff;
     margin: 30px auto;
     padding: 20px;
     border-radius: 20px;
@@ -71,9 +71,11 @@ h1{
     border-style: solid;
     padding: 10px;
     margin-right: 10px;
+    border-color: #241474;
 }
 
 .featured-work h4 {
+    align-self: center;
     grid-area: title;
 }
 

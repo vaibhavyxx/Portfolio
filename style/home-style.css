@@ -77,3 +77,7 @@ p{
     animation: fadeIn;
     animation-duration: 5s;
 }
+
+#intro-text{
+  font-size: 2em;
+}
