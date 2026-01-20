@@ -1,0 +1,12 @@
+#code{
+    background-color: black;
+    color:white;
+    box-sizing: border-box;
+    width: 80%;
+    height: auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.keyword{
+    color:red;
+}
