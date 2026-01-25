@@ -9,7 +9,7 @@
     grid-template-rows: auto 1fr 1fr; 
     gap: 0px 10px; 
     grid-template-areas: 
-    "title title"
+    "image title"
     "image body"
     "image tags";
 }
@@ -46,8 +46,8 @@ h1{
     color: #20186F;
 }
 .visual {
-    width: 400px;
-    height: 400px;
+    width: auto;
+    height: auto;
     border-radius: 10px;
     grid-area: image;
 
@@ -93,8 +93,8 @@ h1{
 
 @media only screen and (max-width:850px){
     .visual {
-        width: 200px;
-        height: 200px;
+        width: 100%;
+        height: auto;
         align-self: center;
     }
     .featured-work {
